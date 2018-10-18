@@ -10,8 +10,8 @@ def long_planeteer_calls(arg)
   arg.any?{|c| c.size > 4}
 end
 
-def find_the_cheese(food)
+def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  food.find{ |food| cheese_types.include?(food)}
+  arg.find{ |food| cheese_types.include?(food)}
 end
