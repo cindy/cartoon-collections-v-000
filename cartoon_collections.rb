@@ -6,8 +6,8 @@ def summon_captain_planet(arg)
   arg.map { |e| e.capitalize + "!" }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arg)
+  arg.collect{|c| c.size > 4}
 end
 
 def find_the_cheese# code an argument here
