@@ -10,7 +10,7 @@ def long_planeteer_calls(arg)
   arg.any?{|c| c.size > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  arg.find(cheese_types)
 end
