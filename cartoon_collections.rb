@@ -3,7 +3,7 @@ def roll_call_dwarves(arg)
 end
 
 def summon_captain_planet(arg)
-  puts arg
+  arg
 end
 
 def long_planeteer_calls# code an argument here
