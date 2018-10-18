@@ -13,7 +13,6 @@ end
 def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  arg.each do |food|
-    break if cheese_types.find{ |ch| ch == food}
+  food.find{ |food| cheese_types.include?(food)}
   end
 end
